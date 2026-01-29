@@ -15,6 +15,7 @@ The repository does **not** include build artifacts or `node_modules`.
 ```bash
 npm install
 npm run build
+```
 4. Activate the plugin(s) in WordPress Admin
 
 Note: node_modules is intentionally excluded. All dependencies can be installed locally.
