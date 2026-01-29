@@ -1,0 +1,60 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "oeblocks/highlight-section",
+	"version": "0.1.0",
+	"title": "Highlight Section",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example block scaffolded with Create Block tool.",
+	"example": {},
+	"supports": {
+		"html": true,
+		"align": true,
+		"spacing": {
+			"padding": true,
+			"margin": true
+		},
+		"__experimentalInnerBlocks": true
+	},
+	"textdomain": "highlight-section",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js",
+	"attributes": {
+		"align": {
+			"type": "string",
+			"default": "center"
+		},
+		"content": {
+			"type": "string",
+			"source": "html",
+			"selector": "p"
+		},
+		"textAlign": {
+			"type": "string",
+			"default": "left"
+		},
+		"isBold": {
+			"type": "boolean",
+			"default": false
+		},
+		"isItalic": {
+			"type": "boolean",
+			"default": false
+		},
+		"isUnderline": {
+			"type": "boolean",
+			"default": false
+		},
+		"fontSize": {
+			"type": "number",
+			"default": 16
+		},
+		"textColor": {
+			"type": "string",
+			"default": "#333333"
+		}
+	}
+}

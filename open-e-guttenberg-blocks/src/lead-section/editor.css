@@ -1,0 +1,15 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-oeblocks-lead-section {
+  border: 1px dotted #f00;
+  display: block;
+  font-size: 1.5em;
+  font-weight: 500;
+  line-height: 1.6;
+  color: black;
+  margin: 0 auto 20px;
+  max-width: 840px;
+}/*# sourceMappingURL=editor.css.map */

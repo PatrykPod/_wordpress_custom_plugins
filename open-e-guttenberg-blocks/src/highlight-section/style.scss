@@ -1,0 +1,20 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.single-post .wp-block-oeblocks-highlight-section {
+    display: inline flow-root;
+    width: 100%;
+    background-color: #fbe7ac !important;
+    border: 1px solid #fdc95f !important;
+    border-radius: 12px;
+    padding: 10px 12px;
+    margin: 3px auto 25px;
+
+    :not(:has(+ *)) {
+        margin-bottom: 0;
+    }
+}

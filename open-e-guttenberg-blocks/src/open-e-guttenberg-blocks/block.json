@@ -1,0 +1,41 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "oeblocks/open-e-guttenberg-blocks",
+	"version": "0.1.0",
+	"title": "Open E Guttenberg Blocks",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example block scaffolded with Create Block tool.",
+	"example": {},
+	"supports": {
+	},
+	"textdomain": "open-e-guttenberg-blocks",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js",
+	"attributes": {
+		"content": {
+			"type": "string",
+			"source": "html",
+			"selector": "p"
+		},
+		"textAlign": {
+			"type": "string",
+			"default": "left"
+		},
+		"isBold": {
+			"type": "boolean",
+			"default": false
+		},
+		"isItalic": {
+			"type": "boolean",
+			"default": false
+		},
+		"isUnderline": {
+			"type": "boolean",
+			"default": false
+		}
+	}
+}

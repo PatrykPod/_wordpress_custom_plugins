@@ -1,0 +1,14 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-oeblocks-lead-section {
+  display: inline-flex;
+  font-size: 1.5em;
+  font-weight: 600;
+  line-height: 1.6;
+  color: black;
+  margin-bottom: 25px;
+}/*# sourceMappingURL=style.css.map */

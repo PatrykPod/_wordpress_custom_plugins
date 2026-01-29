@@ -1,0 +1,15 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-oeblocks-highlight-section {
+  display: block;
+  max-width: 840px;
+  box-sizing: border-box;
+  background-color: #fbe7ac !important;
+  border: 1px dotted #f00 !important;
+  border-radius: 12px;
+  padding: 10px 12px;
+  margin: 0 auto 20px;
+}/*# sourceMappingURL=editor.css.map */
